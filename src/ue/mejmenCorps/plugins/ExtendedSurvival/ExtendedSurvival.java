@@ -16,6 +16,9 @@ public class ExtendedSurvival extends JavaPlugin {
     
     @Override
     public void onDisable(){
+        Logger logger = Logger.getLogger("Minecraft");
+        PluginDescriptionFile pdf = getDescription();
         
+        logger.info("[" + pdf.getName() + "] nooooo Master whyyyyyy?!");
     }
 }
