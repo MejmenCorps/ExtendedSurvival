@@ -1,4 +1,4 @@
-package ue.mejmenCorps.plugins.ExtendedSurvival;
+package dev.mejmenCorps.extendedSurvival;
 
 import java.util.logging.Logger;
 import org.bukkit.plugin.PluginDescriptionFile;
