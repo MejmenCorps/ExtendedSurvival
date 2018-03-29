@@ -5,8 +5,8 @@ import org.bukkit.event.player.PlayerInteractEvent;
 
 public class BackpackOpen implements Listener {
     public void openBackpackByRightClick(PlayerInteractEvent event){
-        if(event.getItem().equals(/*custom backpack item here*/){
-            
-        }
+        //if(event.getItem().equals(/*custom backpack item here*/){
+        //    
+        //}
     }
 }
