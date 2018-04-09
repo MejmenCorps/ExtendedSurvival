@@ -4,6 +4,9 @@ import java.util.logging.Logger;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import dev.mejmenCorps.extendedSurvival.CustomItems.LoadCustomItems;
+
+
 public class extendedSurvival extends JavaPlugin {
     
     @Override
@@ -12,6 +15,9 @@ public class extendedSurvival extends JavaPlugin {
         PluginDescriptionFile pdf = getDescription();
         
         logger.info(pdf.getName() + " is now enabled, be amazed! (" + pdf.getVersion() + "v)");
+        
+        LoadCustomItems loadingItems = new LoadCustomItems();
+        loadingItems.loadItems();
     }
     
     @Override
