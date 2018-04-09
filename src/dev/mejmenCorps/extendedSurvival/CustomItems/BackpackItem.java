@@ -17,7 +17,6 @@ ItemStack backpackItem = null;
         backpackItem.addUnsafeEnchantment(Enchantment.WATER_WORKER, 1);//backpack it
         ItemMeta bMeta = backpackItem.getItemMeta();
         bMeta.setDisplayName("Backpack");
-        bMeta.
         backpackItem.setItemMeta(bMeta);
         
         //creating crafting shape
