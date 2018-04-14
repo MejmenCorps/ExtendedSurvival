@@ -6,6 +6,7 @@ import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.inventory.meta.ItemMeta;
+import org.bukkit.NamespacedKey;
 
 // u pick the wrong house fool
 public class BackpackItem {
@@ -20,7 +21,8 @@ ItemStack backpackItem = null;
         backpackItem.setItemMeta(bMeta);
         
         //creating crafting shape
-        ShapedRecipe backpackCrafting = new ShapedRecipe(backpackItem);
+        NamespacedKey recipeKey = new NamespacedKey();
+        ShapedRecipe backpackCrafting = new ShapedRecipe(,backpackItem);
         
         backpackCrafting.shape("%","%","%");
         backpackCrafting.shape("#","%","#");
